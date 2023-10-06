@@ -8,7 +8,7 @@ const PASSWORD = "iloveupacpac";
 const SlidesPage = () => {
 	const [value, setValue] = useState("");
 	const [isError, setIsError] = useState(false);
-	const [slide, setSlide] = useState(1);
+	const [slide, setSlide] = useState(0);
 
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
